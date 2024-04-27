@@ -1,0 +1,44 @@
+﻿<Page x:Class="Sistem_School.School"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Sistem_School"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="School">
+
+    <Grid>
+    
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Border Background="White" Grid.ColumnSpan="4"/>
+
+        <StackPanel Margin="20 10 0 0">
+            <Label Content="Nome Escola"/>
+            <TextBox/>
+            <Label Content="CNPJ"/>
+            <TextBox/>
+            <Label Content="Razão Social"/>
+            <TextBox/>
+            <Label Content="Endereço"/>
+            <TextBox/>
+            <Label Content="Municipio"/>
+            <TextBox/>
+            <Label Content="UF"/>
+            <TextBox/>
+            <Label Content="Telefone"/>
+            <TextBox/>
+            <Label Content="Modalidade"/>
+            <TextBox/>
+
+            <Button Content="Cadastrar" Margin="0 5" Background="Green" Foreground="White"/>
+            <Button Content="Cancelar" Margin="0 5" Background="Red"/>
+        </StackPanel>
+    </Grid>
+</Page>
